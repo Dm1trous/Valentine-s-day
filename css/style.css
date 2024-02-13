@@ -1,0 +1,169 @@
+/* общие натсройки */
+body {
+    padding: 0;
+    margin: 0;
+    background: url(/image/bckg.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top center;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto 0;
+}
+
+/* первый экран */
+.title {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    margin: 40vh 0 0 0;
+    border-radius: 25px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.btn-group {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 35px 0;
+    width: 120px;
+}
+
+.btn1-div {
+    text-align: left;
+    margin-left: 20vh;
+}
+
+.btn2-div {
+    text-align: right;
+    margin-right: 20vh;
+    margin-top: -150px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.664);
+    transform: scale(102%);
+    transition: all 0.5s;
+}
+
+.btn-1:active {
+    background-color: white;
+    color: palevioletred;
+    transition: none;  
+}
+
+.btn-1>a:active{
+    color: palevioletred;
+}
+
+.btn-2 {
+    transition: all 2s;
+    position: absolute;
+}
+
+
+.smile {
+    position: absolute;
+    margin: 50px 0 0 40px;
+    width: 3%;
+}
+
+.smile:hover {
+    transition: 1s all;
+    transform: rotate(1turn);
+}
+
+/* второй экран */
+.title2 {
+    animation: anim 5s infinite;
+    color: black;
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    border-radius: 25px;
+}
+
+@keyframes anim {
+    0% {
+        scale: 115%;
+        color: red;
+    }
+    25% {
+        scale: 100%;
+        color: orange;
+    }
+    50% {
+        scale: 115%;
+        color: green;
+    }
+    75% {
+        scale: 100%;
+        color: blue;
+    }
+    100% {
+        scale: 115%;
+        color: red;
+    } 
+}
+
+.heart {
+    width: 100px;
+}
+
+.hearts {
+    display: flex;
+    justify-content: space-between;
+    margin: -20% 0 60vh 0;
+}
+
+.heart {
+    animation: heart 4s;
+}
+
+@keyframes heart {
+    0% {
+        margin-top: 80%;
+    }
+    25% {
+        scale: 100%;
+    }
+    50% {
+        scale: 115%;
+    }
+    75% {
+        scale: 100%;
+    }
+    100% {
+        scale: 115%;
+        margin-top: 0;
+    } 
+}
+
+.cat {
+    text-align: center;
+}
+
+.cat_gif {
+    border-radius: 25px;
+}
