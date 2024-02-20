@@ -55,7 +55,7 @@ a {
 .btn2-div {
     text-align: right;
     margin-right: 20vh;
-    margin-top: -150px;
+    margin-top: -152px;
 }
 
 .btn:hover {
@@ -97,7 +97,7 @@ a {
     animation: anim 5s infinite;
     color: black;
     padding: 20px;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
@@ -166,4 +166,5 @@ a {
 
 .cat_gif {
     border-radius: 25px;
+    width: 50%;
 }
