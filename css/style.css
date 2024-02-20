@@ -134,7 +134,7 @@ a {
 .hearts {
     display: flex;
     justify-content: space-between;
-    margin: -20% 0 60vh 0;
+    margin: -20% 0 40vh 0;
 }
 
 .heart {
